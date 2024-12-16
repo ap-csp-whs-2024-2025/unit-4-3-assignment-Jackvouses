@@ -6,6 +6,11 @@
 
 int main()
 {
+  std::srand(std::time(0));
 
+  int user_input = 0;
+  int num1;
+  int num2;
+  double numerator
   return 0;
 }
