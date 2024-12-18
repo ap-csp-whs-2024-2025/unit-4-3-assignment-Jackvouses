@@ -67,27 +67,29 @@ int main()
               }
               else
               {
-
+                std::cout << "Their quotient is " << (numerator / denominator) << std::endl;
               }
             }
             else
             {
               if (user_input == 5)
               {
+                std::cout << "Enter a number\n";
+                std::cin >> num1;
                 if (num1 < 0)
                 {
-
+                  std::cout << "Error: Cannot compute square root of a negative number. \n";
                 }
                 else
                 {
-
+                  std::cout << "The square root of " << num1 << " is " << sqrt(num1) << std::endl;
                 }
               }
               else
               {
                 if (user_input != 99)
                 {
-
+                  std::cout << "Invalid option, please choose again.\n";
                 }
               }
             }
@@ -96,5 +98,7 @@ int main()
       }
     }  
   }
+
+  std::cout << "Goodbye!\n";
   return 0;
 }
